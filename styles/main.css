@@ -1,0 +1,516 @@
+body, html {
+
+	background-color: #eeeeed;	
+}
+/*** Универсальные классы **/
+
+.titleBlock {
+	color: #005c7b;
+	text-transform: uppercase;
+	font-family: Philosopher-Bold;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 123px;
+
+}
+
+/*** Универсальные классы **/
+
+.headerbackground {
+	background-color: #008daa;
+	padding: 32px 0 31px 0;
+	-webkit-box-shadow: 2px 4px 5px 0px rgba(34, 60, 80, 0.4); 
+	-moz-box-shadow: 2px 4px 5px 0px rgba(34, 60, 80, 0.4); 
+	box-shadow: 2px 4px 5px 0px rgba(34, 60, 80, 40%);
+
+}
+
+.header_link, .header_link:hover, .header_link:visited {
+	color: #d4d0c8;
+	font-size: 24px;
+	font-family: Roboto-Regular, sans-serif;
+	margin-left: 67px;
+	letter-spacing: 0.25px;
+}
+
+.header_link:hover {
+	color: white;
+}
+
+.header_socials {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 4px;
+	margin-left: 43px;
+	width: 357px;
+	justify-content: space-evenly;
+}
+
+.header_socials li {
+	list-style-type: none;
+	width: 30px;
+    height: 30px;
+    border: 2px solid #d4d0c8;
+    border-radius: 5px;
+}
+
+.header_socials li a {
+    color: #d4d0c8;
+    font-size: 24px;
+}
+
+
+
+.header_socials li:hover {
+    border: 2px solid #eeeeed;
+}
+
+.header_socials a:hover {
+    color: #eeeeed;
+}
+
+
+.header_socials li:nth-child(1) a {
+    font-size: 18px;
+    padding: 2px 5px 2px 4px;
+}
+
+.header_socials li:nth-child(2) {
+    padding-top: 3px;
+    padding-left: 8px;
+}
+
+
+.header_socials li:nth-child(2) a {
+    font-size: 19px;
+}
+
+.header_socials li:nth-child(3) {
+    border: none;
+    margin-top: -12px;
+    padding-left: 8px;
+}
+
+.header_socials li:nth-child(3) a {
+    font-size: 36px;
+}
+
+
+.header_socials li:nth-child(4) {
+    border: none;
+    margin-top: -8px;
+}
+
+.header_socials li:nth-child(4) a {
+    font-size: 30px;
+}
+
+.header_menu {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 18px;
+	margin-right: 50px;
+	margin-left: 70px;
+}
+
+/* .header_menu li::after {
+	content: '\2022';
+	font-size: 25px;
+	color: aquamarine;
+	width: 3px;
+	height: 10px;
+	display: block;
+} */
+
+.header_menu li {
+	list-style-type: none;
+	height: 24px;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.header_menu li i {
+	font-size: 9px;
+	color: #06b9c5;
+	width: 20px;
+
+}
+.header_menu li  a {
+	color: #06b9c5;
+	font-family: Roboto-Regular, sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+
+.header_menu li a:hover {
+	text-decoration: underline;
+	color: #eb477b;
+
+}
+
+
+.main_background {
+	height: 980px;
+	background-image: url(/img/design-2461957_1920.png);
+	background-size: 900px;
+	background-repeat: no-repeat;
+	background-position-x: 264px;
+	background-position-y: 204px;
+}
+
+.main {
+	margin-top: 107px;
+    margin-right: 54px;
+}
+
+.main_title {
+	font-family: Philosopher-Regular;
+	color: #005c7b;
+	font-size: 55px;
+	display: flex;
+	flex-direction: column;
+}
+
+.main_title span:nth-child(2) {
+	margin-top: 45px;
+}
+
+.main_title_uppercase {
+	text-transform: uppercase;
+
+}
+
+.main_about {
+	color: #005c7b;
+	font-family: Roboto-Medium;
+	font-size: 24px;
+	margin-top: 93px
+}
+
+.main_enrol {
+	margin-top: 37px;
+	font-family: Roboto-Regular;
+	font-size: 30px;
+	margin-right: 0px;
+	text-decoration: none;
+	color: white;
+	background-color: #005c7b;
+	border-radius: 50px;
+	padding: 7px 20px;
+
+}
+
+.main_enrol:hover {
+	background-color: #eb477b;
+	color: white;
+}
+
+.about_cource {
+	background-color: white;
+	height: 1080px;
+}
+
+.aboutcource_title {
+	margin-top: 124px;
+	margin-left: 14px;
+	margin-bottom: 94px;
+
+}
+
+.textabout_cource_p {
+	font-family: Roboto-Regular, sans-serif;
+	color: #005c7b;
+	font-size: 24px;
+	margin-left: 63px;
+	padding: 0px 0px 0px 1px;
+	line-height: 1.2;
+	letter-spacing: 0.5px;
+}
+
+.textabout_cource_p:nth-child(1) {
+	text-align: center;
+	margin-left: 28px;
+	margin-bottom: 19px;
+
+}
+
+.textabout_cource_p:nth-child(2) {
+	margin-top: 4px;
+	letter-spacing: 1.6px;
+}
+
+.textabout_cource_p:nth-child(3) {
+	margin-top: -1px;
+	margin-left: 62px;
+	letter-spacing: 0.9px;
+}
+
+.aboutcource_info_block:nth-child(1) .aboutcource_info_picture {
+	height: 100px;
+	width: 100px;
+	margin-top: 93px;
+	margin-left: 55px;
+
+}
+
+.aboutcource_info_block:nth-child(2) .aboutcource_info_picture {
+	height: 100px;
+	width: 100px;
+	margin-top: 93px;
+	margin-left: 40px;
+}
+
+.aboutcource_info_block:nth-child(3) .aboutcource_info_picture {
+	height: 90px;
+	width: 90px;
+	margin-top: 102px;
+	margin-left: 9px;
+}
+
+.aboutcource_info_block:nth-child(2) .aboutcource_info_title {
+	margin-top: 3px;
+	margin-left: 36px;
+}
+
+.aboutcource_info_block:nth-child(3) .aboutcource_info_title {
+	margin-top: 2px;
+	margin-left: 20px;
+}
+
+.aboutcource_info_block:nth-child(2) .aboutcource_info_text {
+	margin-left: 39px;
+}
+
+
+
+.aboutcource_info_picture {
+	margin-bottom: 35px;
+	
+}
+
+.aboutcource_info_title {
+	margin-left: 32px;
+	margin-bottom: 15px;
+	
+}
+
+.aboutcource_info_text {
+	margin-left: 25px;
+	margin-bottom: 3px;
+	word-spacing: 1px;
+	
+}
+
+
+
+.aboutcource_info_text:nth-child(5) {
+	margin-left: 37px;
+	
+}
+
+
+.aboutcource_info h3 {
+	font-family: Philosopher-Regular;
+	font-size: 30px;
+	color: #005c7b;
+}
+
+.aboutcource_info p {
+	font-family: Roboto-Regular;
+	font-size: 18px;
+	color: #008daa;
+}
+
+.advantage_background {
+	height: 1080px
+}
+
+.advantage_title {
+	margin-bottom: 66px;
+	margin-left: 16px;
+}
+
+.advantage_list {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.advantage_list li {
+	list-style-type: none;
+	color: #005c7b;
+	font-size: 30px;
+	font-family: Roboto-Regular;
+	padding-left: 81px;
+	margin-bottom: 51px;
+}
+
+.advantage_list li i {
+	margin-right: 40px;
+}
+
+.questions_background {
+	background-color: white;
+	height: 1080px;
+}
+
+.accordion {
+	margin-top: 44px;
+	margin-left: 113px;
+}
+
+.accordion-header {
+	background-color: aqua;
+}
+
+.accordion-body {
+	padding: 0px 12px 11px 0px;
+	margin-top: 0px;
+}
+
+.accordion-flush .accordion-item{
+	border-bottom: 0px;
+	border-top: 0px;
+}
+
+
+.accordion-button i {
+	color: red;
+	margin-right: 0px;
+}
+
+.accordion-button {
+	color: #008daa;
+	font-size: 24px;
+	font-family: Philosopher-Regular;
+}
+
+.accordion-button:not(.collapsed) {
+	background-color: #fff;
+	color: #008daa;
+}
+
+.accordion-button:focus {
+	z-index: 3;
+	border-color: #fff;
+	box-shadow: none;
+}
+
+.accordion-button::after {
+	display: none;
+	flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-repeat: no-repeat;
+	background-image: none;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+
+}
+
+
+.reviewsbackground {
+	height: 1080px;
+}
+
+.carousel {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin-left: 20px;
+
+}
+
+.d-block {
+	border-radius: 95px;
+}
+
+.reviews_title {
+
+}
+
+@media screen and (max-width: 1199px) {
+
+	.header_link {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 30px;
+
+	}
+	
+	.header_socials {
+		margin: 0 auto;
+	}
+
+	.main_background {
+		height: 980px;
+		background-image: url(/img/design-2461957_1920.png);
+		background-size: 540px;
+		background-repeat: no-repeat;
+		background-position-x: -13px;
+		background-position-y: 108px;
+	}
+
+	.main {
+		margin-top: 41px;
+		margin-right: 95px;
+	}
+	
+	.main_title {
+		font-family: Philosopher-Regular;
+		color: #005c7b;
+		font-size: 35px;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.main_title span:nth-child(2) {
+		margin-top: 10px;
+		margin-right: 154px;
+	}
+	
+	.main_title_uppercase {
+		text-transform: uppercase;
+	
+	}
+	
+	.main_about {
+		color: #005c7b;
+		font-family: Roboto-Medium;
+		font-size: 24px;
+		margin-top: 8px;
+		margin-right:105px;
+	}
+	
+	.main_enrol {
+		margin-top: 10px;
+		font-family: Roboto-Regular;
+		font-size: 30px;
+		margin-right: 174px;
+		text-decoration: none;
+		color: white;
+		background-color: #005c7b;
+		border-radius: 50px;
+		padding: 7px 20px;
+	
+	}
+	
+	.main_enrol:hover {
+		color: gainsboro;
+	}
+
+
+}
+
