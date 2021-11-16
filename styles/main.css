@@ -364,15 +364,22 @@ body, html {
 	height: 1080px;
 }
 
-.accordion {
-	margin-top: 44px;
-	margin-left: 113px;
+.questions {
+	margin-top: 5px;
+
 }
+
+.questions_title {
+	padding-bottom: 45px;
+}
+
+
+
 
 .accordion-header {
 	background-color: aqua;
 }
-
+/*
 .accordion-body {
 	padding: 0px 12px 11px 0px;
 	margin-top: 0px;
@@ -382,7 +389,7 @@ body, html {
 	border-bottom: 0px;
 	border-top: 0px;
 }
-
+*/
 
 .accordion-button i {
 	color: red;
@@ -390,14 +397,21 @@ body, html {
 }
 
 .accordion-button {
+	flex-direction: row-reverse;
 	color: #008daa;
 	font-size: 24px;
-	font-family: Philosopher-Regular;
+	font-family: Philosopher-Bold;
+
+}
+
+.accordion-button::after {
+	margin-right: auto;
+	margin-left: unset;
 }
 
 .accordion-button:not(.collapsed) {
 	background-color: #fff;
-	color: #008daa;
+	color: #008daa !important;
 }
 
 .accordion-button:focus {
@@ -406,19 +420,8 @@ body, html {
 	box-shadow: none;
 }
 
-.accordion-button::after {
-	display: none;
-	flex-shrink: 0;
-    width: 1.25rem;
-    height: 1.25rem;
-    margin-left: auto;
-    content: "";
-    background-repeat: no-repeat;
-	background-image: none;
-    background-size: 1.25rem;
-    transition: transform .2s ease-in-out;
 
-}
+
 
 
 .reviewsbackground {
