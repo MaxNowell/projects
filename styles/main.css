@@ -7,7 +7,7 @@ body, html {
 .titleBlock {
 	color: #005c7b;
 	text-transform: uppercase;
-	font-family: Philosopher-Bold;
+	font-family: 'Philosopher-Bold';
 	font-size: 60px;
 	text-align: center;
 	margin-top: 123px;
@@ -28,7 +28,7 @@ body, html {
 .header_link, .header_link:hover, .header_link:visited {
 	color: #d4d0c8;
 	font-size: 24px;
-	font-family: Roboto-Regular, sans-serif;
+	font-family: 'Roboto-Regular, sans-serif';
 	margin-left: 67px;
 	letter-spacing: 0.25px;
 }
@@ -145,7 +145,7 @@ body, html {
 }
 .header_menu li  a {
 	color: #06b9c5;
-	font-family: Roboto-Regular, sans-serif;
+	font-family: 'Roboto-Regular, sans-serif';
 	font-size: 18px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -174,7 +174,7 @@ body, html {
 }
 
 .main_title {
-	font-family: Philosopher-Regular;
+	font-family: 'Philosopher-Regular';
 	color: #005c7b;
 	font-size: 55px;
 	display: flex;
@@ -192,14 +192,14 @@ body, html {
 
 .main_about {
 	color: #005c7b;
-	font-family: Roboto-Medium;
+	font-family: 'Roboto-Medium';
 	font-size: 24px;
 	margin-top: 93px
 }
 
 .main_enrol {
 	margin-top: 37px;
-	font-family: Roboto-Regular;
+	font-family: 'Roboto-Regular';
 	font-size: 30px;
 	margin-right: 0px;
 	text-decoration: none;
@@ -217,7 +217,11 @@ body, html {
 
 .about_cource {
 	background-color: white;
-	height: 1080px;
+}
+
+.aboutcource {
+	padding-top: 0px;
+	padding-bottom: 203px;
 }
 
 .aboutcource_title {
@@ -228,7 +232,7 @@ body, html {
 }
 
 .textabout_cource_p {
-	font-family: Roboto-Regular, sans-serif;
+	font-family: 'Roboto-Regular, sans-serif';
 	color: #005c7b;
 	font-size: 24px;
 	margin-left: 63px;
@@ -258,7 +262,7 @@ body, html {
 .aboutcource_info_block:nth-child(1) .aboutcource_info_picture {
 	height: 100px;
 	width: 100px;
-	margin-top: 93px;
+	margin-top: 122px;
 	margin-left: 55px;
 
 }
@@ -266,14 +270,14 @@ body, html {
 .aboutcource_info_block:nth-child(2) .aboutcource_info_picture {
 	height: 100px;
 	width: 100px;
-	margin-top: 93px;
+	margin-top: 122px;
 	margin-left: 40px;
 }
 
 .aboutcource_info_block:nth-child(3) .aboutcource_info_picture {
 	height: 90px;
 	width: 90px;
-	margin-top: 102px;
+	margin-top: 128px;
 	margin-left: 9px;
 }
 
@@ -320,19 +324,20 @@ body, html {
 
 
 .aboutcource_info h3 {
-	font-family: Philosopher-Regular;
+	font-family: 'Philosopher-Regular';
 	font-size: 30px;
 	color: #005c7b;
 }
 
 .aboutcource_info p {
-	font-family: Roboto-Regular;
+	font-family: 'Roboto-Regular';
 	font-size: 18px;
 	color: #008daa;
 }
 
-.advantage_background {
-	height: 1080px
+.advantage {
+	padding-top: 2px;
+	padding-bottom: 239px;
 }
 
 .advantage_title {
@@ -350,7 +355,7 @@ body, html {
 	list-style-type: none;
 	color: #005c7b;
 	font-size: 30px;
-	font-family: Roboto-Regular;
+	font-family: 'Roboto-Regular';
 	padding-left: 81px;
 	margin-bottom: 51px;
 }
@@ -361,11 +366,11 @@ body, html {
 
 .questions_background {
 	background-color: white;
-	height: 1080px;
 }
 
 .questions {
-	margin-top: 5px;
+	padding-top: 5px;
+	padding-bottom: 365px;
 
 }
 
@@ -374,8 +379,8 @@ body, html {
 }
 
 .accordion {
-	margin-left: 97px;
-	margin-top: -6px;
+	margin-left: 92px;
+	margin-top: -29px;
 }
 
 .accordion-header {
@@ -383,35 +388,34 @@ body, html {
 }
 
 .accordion-body {
-	font-family: Roboto-italic;
+	font-family: 'Roboto-italic';
 	font-size: 18px;
 	color: #005c7d;
 	padding-top: 0px;
+	padding-bottom: 10px;
 }
 
 .accordion-flush .accordion-item {
 	border-bottom: 0px;
 	border-top: 0px;
+	
 }
-
-
-
 
 .accordion-button {
 	flex-direction: row-reverse;
 	color: #008daa;
 	font-size: 24px;
-	font-family: Philosopher-Bold;
-	padding-bottom: 1px;
+	font-family: 'Philosopher-Bold';
+	padding-top: 38px;
+	padding-bottom: 0px;
 
 }
 .accordion-button span {
 	width: 100%;
 	height: 100%;
-	margin-left: 10px;	
+	margin-left: 19px;	
 
 }
-
 
 .accordion-button::after {
 	margin-right: auto;
@@ -445,7 +449,7 @@ body, html {
 
 .questions_bottom {
 	font-size: 36px;
-	margin-top: 86px;
+	margin-top: 52px;
 	text-transform: none;
 	margin-left: 21px;
 	color: #008daa !important;
@@ -460,19 +464,80 @@ body, html {
 .questions_bottom_link a {
 	text-transform: none;
 	color: #005c7b;
-	font-family: Philosopher-bold;
+	font-family: 'Philosopher-bold';
 	
 }
 
-
-
-
-
-
-.reviewsbackground {
-	height: 1080px;
+.reviews {
+	padding-top: 125px;
+	padding-bottom: 328px;
 }
 
+.carousel {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.reviews_title {
+	margin-left: 64px;
+	margin-bottom: 95px;
+}
+
+.reviews_items {
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.reviews_items_content {
+	color: #005c7b;
+	font-family: 'Roboto-Italic';
+	font-size: 18px;
+	margin-bottom: -7px;
+	text-align: justify;
+	min-height: 265px;
+}
+
+.reviews_items_pic {
+	width: 110px;
+	height: 110px;
+	border-radius: 127px;
+	/* display: block;
+	margin: 0 auto; */
+	margin-left: 65px;
+}
+
+.reviews_items_name {
+	color: #008daa;
+	font-size: 30px;
+	font-family: 'Philosopher-Regular';
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 84px;
+	line-height: 30px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+	align-items: flex-start;
+	margin-top: 66px;
+
+}
+
+.carousel-control-prev-icon {
+	background-image: url(../img/arrowleft.png);
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+}
+
+.carousel-control-next-icon {
+	background-image: url(../img/arrowright.png);
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+}
+
+/*
 .carousel {
 	display: flex;
 	flex-wrap: wrap;
@@ -480,14 +545,9 @@ body, html {
 	margin-left: 20px;
 
 }
+*/
 
-.d-block {
-	border-radius: 95px;
-}
 
-.reviews_title {
-
-}
 
 @media screen and (max-width: 1199px) {
 
