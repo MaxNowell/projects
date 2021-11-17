@@ -161,7 +161,7 @@ body, html {
 
 .main_background {
 	height: 980px;
-	background-image: url(/img/design-2461957_1920.png);
+	background-image: url(../img/design-2461957_1920.png);
 	background-size: 900px;
 	background-repeat: no-repeat;
 	background-position-x: 264px;
@@ -727,7 +727,7 @@ body, html {
 
 	.main_background {
 		height: 980px;
-		background-image: url(/img/design-2461957_1920.png);
+		background-image: url(../img/design-2461957_1920.png);
 		background-size: 540px;
 		background-repeat: no-repeat;
 		background-position-x: -13px;
@@ -740,7 +740,7 @@ body, html {
 	}
 	
 	.main_title {
-		font-family: Philosopher-Regular;
+		font-family: 'Philosopher-Regular';
 		color: #005c7b;
 		font-size: 35px;
 		display: flex;
@@ -759,7 +759,7 @@ body, html {
 	
 	.main_about {
 		color: #005c7b;
-		font-family: Roboto-Medium;
+		font-family: 'Roboto-Medium';
 		font-size: 24px;
 		margin-top: 8px;
 		margin-right:105px;
@@ -767,7 +767,7 @@ body, html {
 	
 	.main_enrol {
 		margin-top: 10px;
-		font-family: Roboto-Regular;
+		font-family: 'Roboto-Regular';
 		font-size: 30px;
 		margin-right: 174px;
 		text-decoration: none;
@@ -788,7 +788,7 @@ body, html {
 @media screen and (max-width: 770px) {
 
 	.main_title {
-		font-family: Philosopher-Regular;
+		font-family: 'Philosopher-Regular';
 		color: #005c7b;
 		font-size: 25px;
 		display: flex;
@@ -807,7 +807,7 @@ body, html {
 
 	.main_about {
 		color: #005c7b;
-		font-family: Roboto-Medium;
+		font-family: 'Roboto-Medium';
 		font-size: 20px;
 		margin-top: 33px;
 		margin-right:-14px;
@@ -815,7 +815,7 @@ body, html {
 	
 	.main_enrol {
 		margin-top: 10px;
-		font-family: Roboto-Regular;
+		font-family: 'Roboto-Regular';
 		font-size: 24px;
 		margin-right: 46px;
 		text-decoration: none;
