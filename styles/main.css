@@ -417,6 +417,11 @@ body, html {
 
 }
 
+.accordion-button span:hover {
+	text-decoration: underline;
+
+}
+
 .accordion-button::after {
 	margin-right: auto;
 	margin-left: unset;
@@ -466,6 +471,10 @@ body, html {
 	color: #005c7b;
 	font-family: 'Philosopher-bold';
 	
+}
+
+.questions_bottom_link a:hover {
+	color: #eb477b;;
 }
 
 .reviews {
@@ -628,11 +637,11 @@ body, html {
 
 
 .footer_socials li:hover {
-    border: 4px solid #008daa;
+    border: 4px solid #eb477b;;
 }
 
 .footer_socials a:hover {
-    color: #008daa;
+    color: #eb477b;;
 }
 
 
@@ -650,6 +659,7 @@ body, html {
 
 .footer_socials li:nth-child(2) a {
     font-size: 40px;
+	padding-right: 20px;
 }
 
 .footer_socials li:nth-child(3) {
@@ -698,21 +708,9 @@ body, html {
 	margin-left: 68px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.info_link:hover {
+	color: #eeeeed;
+}
 
 @media screen and (max-width: 1199px) {
 
@@ -787,3 +785,54 @@ body, html {
 
 }
 
+@media screen and (max-width: 770px) {
+
+	.main_title {
+		font-family: Philosopher-Regular;
+		color: #005c7b;
+		font-size: 25px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.main_title span:nth-child(2) {
+		margin-top: 10px;
+		margin-right: -5px;
+	}
+	
+	.main_title_uppercase {
+		text-transform: uppercase;
+	
+	}
+
+	.main_about {
+		color: #005c7b;
+		font-family: Roboto-Medium;
+		font-size: 20px;
+		margin-top: 33px;
+		margin-right:-14px;
+	}
+	
+	.main_enrol {
+		margin-top: 10px;
+		font-family: Roboto-Regular;
+		font-size: 24px;
+		margin-right: 46px;
+		text-decoration: none;
+		color: white;
+		background-color: #005c7b;
+		border-radius: 50px;
+		padding: 7px 20px;
+	
+	}
+	
+	.main_enrol:hover {
+		color: gainsboro;
+	}
+
+	.footer_socials {
+		margin-left: 90px;
+	
+}
+
+}
